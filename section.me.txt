@@ -1,0 +1,52 @@
+/* <!-- section.me --> */
+section.me{
+    background: url('../img/me.jpg');
+}
+section .list{
+    /* background: orange; */
+    width: 70%;
+    margin: 50px auto;
+    padding: 40px;
+    border-top: 3px solid #000 ;
+    border-bottom: 3px solid #000;
+}
+section .list li{
+    margin-bottom: 50px;
+}
+section .list li:first-child{
+    border-bottom: 1px solid lightgray;
+}
+section .list li h3{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+section .list  li p{
+    padding: 0 20px;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+section .list li .more{
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+section .list ul li .more i{
+    color: rgb(228, 107, 27);
+}
+section .list li .in li em{
+    font-weight: bold;
+    padding: 0 20px;
+}
+section .list li .in li p{
+    display: inline;
+}
+section.me #incruit-btn{
+color: #fff;
+border: 1px solid #fff;
+background: #f86010;
+border-radius: 50%;
+padding: 10px 30px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+margin-bottom: 50px;
+}
